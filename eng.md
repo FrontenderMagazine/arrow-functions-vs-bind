@@ -1,3 +1,5 @@
+# Arrow functions vs. bind()
+
 ES6 arrow functions are often a compelling alternative to 
 `Function.prototype.bind()`.
 
