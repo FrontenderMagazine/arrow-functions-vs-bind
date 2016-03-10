@@ -24,14 +24,14 @@ Cтрелочные функции в ES6 часто рассматривают 
     const as = new Set([1, 2, 3]);
     const bs = new Set([3, 2, 4]);
     const intersection = [...as].filter(bs.has, bs);
-        // [2, 3]
+    // [2, 3]
     
 Однако, этот код становится легче понять, если использовать стрелочную функцию:
 
     const as = new Set([1, 2, 3]);
     const bs = new Set([3, 2, 4]);
     const intersection = [...as].filter(a => bs.has(a));
-        // [2, 3]
+    // [2, 3]
     
 
 ## 3. Частичные вычисления
